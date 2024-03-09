@@ -11,30 +11,30 @@ const Header = () => {
         <nav className="flex justify-around">
           <Link
             to={"/"}
-            className=" font-light text-lg hover:scale-110 hover:font-medium transition duration-150 ease-in-out hover:text-red-500"
+            className=" font-light text-lg hover:scale-110 hover:font-medium transition duration-150 ease-in-out hover:text-red-500 hover:underline underline-offset-2"
           >
             Home
           </Link>
           <Link
             to="/about"
-            className=" font-light text-lg hover:scale-110 hover:font-medium transition duration-150 ease-in-out hover:text-red-500"
+            className=" font-light text-lg hover:scale-110 hover:font-medium transition duration-150 ease-in-out hover:text-red-500 hover:underline underline-offset-2"
           >
             About
           </Link>
           <Link
             to="/work"
-            className=" font-light text-lg hover:scale-110 hover:font-medium transition duration-150 ease-in-out hover:text-red-500"
+            className=" font-light text-lg hover:scale-110 hover:font-medium transition duration-150 ease-in-out hover:text-red-500 hover:underline underline-offset-2"
           >
             Experience
           </Link>
           <Link
             to="/contact"
-            className=" font-light text-lg hover:scale-110 hover:font-medium transition duration-150 ease-in-out hover:text-red-500"
+            className=" font-light text-lg hover:scale-110 hover:font-medium transition duration-150 ease-in-out hover:text-red-500 hover:underline underline-offset-2"
           >
             Contact
           </Link>
           <Link
-            to={'/'}
+            to={"/"}
             className=" font-light text-lg hover:scale-110 hover:font-medium transition duration-150 ease-in-out hover:text-red-500"
           >
             Demo_development
