@@ -17,17 +17,22 @@ const About = () => {
             My passion lies in tackling complex challenges and transforming them
             into elegant and functional online experiences. Throughout my 3
             months at Coding Club, I played a key role in developing several
-            award-winning e-commerce, tutoring platforms and many more. I spearheaded the development of
-            the user interface (UI) and user experience (UX) for their flagship
-            store, resulting in a 25% increase in online conversions and a
-            significant improvement in customer satisfaction. I am a strong
-            believer in the power of collaboration and enjoy working closely
-            with designers and other developers to bring projects to life. Dive
-            into my portfolio to see how my skills and experience can elevate
-            your next web project!
+            award-winning e-commerce, tutoring platforms and many more. I
+            spearheaded the development of the user interface (UI) and user
+            experience (UX) for their flagship store, resulting in a 25%
+            increase in online conversions and a significant improvement in
+            customer satisfaction. I am a strong believer in the power of
+            collaboration and enjoy working closely with designers and other
+            developers to bring projects to life. Dive into my portfolio to see
+            how my skills and experience can elevate your next web project!
           </p>
         </div>
       </section>
+      <div className="bg-gray-200 flex p-5 justify-center ">
+        <button className="text-black font-semibold text-xl w-1/3 bg-gray-200 p-3 rounded-2xl border-2 border-red-500 hover:bg-red-500 duration-150 ease-in-out hover:text-white hover:rounded-3xl scale-110">
+          Get My Resume
+        </button>
+      </div>
     </div>
   );
 };
