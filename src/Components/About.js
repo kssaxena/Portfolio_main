@@ -3,8 +3,8 @@ import { images } from "../utils/Images";
 const About = () => {
   return (
     <div>
-      <section className="bg-gray-200 flex">
-        <div className="about_me_and_photo w-1/2 flex justify-center items-center p-10">
+      <section className="about_me_and_photo bg-gray-200 flex">
+        <div className=" w-1/2 flex justify-center items-center p-10">
           <img src={images[1].url} className="w-96 rounded-full p-10" />
         </div>
         <div className=" w-full p-20">
@@ -28,11 +28,25 @@ const About = () => {
           </p>
         </div>
       </section>
-      <div className="bg-gray-200 flex p-5 justify-center ">
-        <button className="text-black font-semibold text-xl w-1/3 bg-gray-200 p-3 rounded-2xl border-2 border-red-500 hover:bg-red-500 duration-150 ease-in-out hover:text-white hover:rounded-3xl scale-110">
-          Get My Resume
-        </button>
-      </div>
+      <section className="get_resume_button">
+        <div className="bg-gray-200 flex p-5 justify-center ">
+          <button className="text-black font-semibold text-xl w-1/3 bg-gray-200 p-3 rounded-2xl border-2 border-red-500 hover:bg-red-500 duration-150 ease-in-out hover:text-white hover:rounded-3xl scale-110">
+            Get My Resume
+          </button>
+        </div>
+      </section>
+      <section className="bg-gray-200">
+        <h1 className="text-center">__RESUME__</h1>
+        <div className="flex justify-evenly">
+          <div>
+            <h1>Education</h1>
+            
+          </div>
+          <div>
+            <h1>Experience</h1>
+          </div>
+        </div>
+      </section>
     </div>
   );
 };
