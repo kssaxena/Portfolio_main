@@ -1,5 +1,6 @@
 import { images } from "../utils/Images";
 import Edu_card from "../utils/Edu_card";
+import Hire_me from "../utils/Hire_me";
 
 const About = () => {
   return (
@@ -39,8 +40,8 @@ const About = () => {
       <section className="bg-gray-200 p-16">
         <h1 className="text-center text-5xl mb-10">__RESUME__</h1>
         <div className="flex justify-evenly text-2xl">
-          <div className="flex flex-col justify-center items-center">
-            <h1>Education</h1>
+          <div className="flex flex-col justify-center items-center  w-full">
+            <h1 className="mb-10">Education</h1>
             <Edu_card
               course_name={"Bachelor in computer science"}
               description={"Pursuing Btech CSE from Usha Martin university"}
@@ -54,8 +55,8 @@ const About = () => {
               description={"Completed Matriculation from BridgeFord School"}
             />
           </div>
-          <div className="flex flex-col justify-center items-center">
-            <h1>Experience</h1>
+          <div className="flex flex-col justify-center items-center  w-full">
+            <h1 className="mb-10"> Experience</h1>
             <Edu_card
               course_name={"Bachelor in computer science"}
               description={"Pursuing Btech CSE from Usha Martin university"}
@@ -70,6 +71,9 @@ const About = () => {
             />
           </div>
         </div>
+      </section>
+      <section>
+        <Hire_me />
       </section>
     </div>
   );

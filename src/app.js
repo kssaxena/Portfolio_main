@@ -12,7 +12,6 @@ import Footer from "./utils/Footer";
 
 
 
-
 const AppLayout = () => {
   return <div className="container w-[100%] overflow-hidden ">
     <Header/>
