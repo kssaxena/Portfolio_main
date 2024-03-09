@@ -38,10 +38,10 @@ const About = () => {
         </div>
       </section>
       <section className="bg-gray-200 p-16">
-        <h1 className="text-center text-5xl mb-10">__RESUME__</h1>
+        <h1 className="text-center text-5xl mb-10">__Few_Formal_Details__</h1>
         <div className="flex justify-evenly text-2xl">
-          <div className="flex flex-col justify-center items-center  w-full">
-            <h1 className="mb-10">Education</h1>
+          <div className="flex flex-col items-center  w-full">
+            <h1 className="mb-10">Education : </h1>
             <Edu_card
               course_name={"Bachelor in computer science"}
               description={"Pursuing Btech CSE from Usha Martin university"}
@@ -55,20 +55,20 @@ const About = () => {
               description={"Completed Matriculation from BridgeFord School"}
             />
           </div>
-          <div className="flex flex-col justify-center items-center  w-full">
-            <h1 className="mb-10"> Experience</h1>
+          <div className="flex flex-col items-center  w-full">
+            <h1 className="mb-10"> Experience : </h1>
             <Edu_card
-              course_name={"Bachelor in computer science"}
-              description={"Pursuing Btech CSE from Usha Martin university"}
+              course_name={"College Project"}
+              description={"An ongoing project for the University."}
             />
             <Edu_card
-              course_name={"Intermidiate"}
-              description={"Completed intermidiate from St.Xavier's College"}
+              course_name={"Bharat Intern"}
+              description={"An online Internship completed by the end of the February 2024, on with core HTML and CSS."}
             />
-            <Edu_card
+            {/* <Edu_card
               course_name={"Matriculation"}
               description={"Completed Matriculation from BridgeFord School"}
-            />
+            /> */}
           </div>
         </div>
       </section>
