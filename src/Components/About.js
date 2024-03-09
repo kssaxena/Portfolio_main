@@ -39,7 +39,7 @@ const About = () => {
       <section className="bg-gray-200 p-16">
         <h1 className="text-center text-5xl mb-10">__RESUME__</h1>
         <div className="flex justify-evenly text-2xl">
-          <div className="flex flex-col justify-center items-center bg-red-500 ">
+          <div className="flex flex-col justify-center items-center">
             <h1>Education</h1>
             <Edu_card
               course_name={"Bachelor in computer science"}
@@ -54,7 +54,7 @@ const About = () => {
               description={"Completed Matriculation from BridgeFord School"}
             />
           </div>
-          <div className="flex flex-col justify-center items-center bg-red-500">
+          <div className="flex flex-col justify-center items-center">
             <h1>Experience</h1>
             <Edu_card
               course_name={"Bachelor in computer science"}
