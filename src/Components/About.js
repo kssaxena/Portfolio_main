@@ -1,4 +1,5 @@
 import { images } from "../utils/Images";
+import Edu_card from "../utils/Edu_card";
 
 const About = () => {
   return (
@@ -35,15 +36,38 @@ const About = () => {
           </button>
         </div>
       </section>
-      <section className="bg-gray-200">
-        <h1 className="text-center">__RESUME__</h1>
-        <div className="flex justify-evenly">
-          <div>
+      <section className="bg-gray-200 p-16">
+        <h1 className="text-center text-5xl mb-10">__RESUME__</h1>
+        <div className="flex justify-evenly text-2xl">
+          <div className="flex flex-col justify-center items-center bg-red-500 ">
             <h1>Education</h1>
-            
+            <Edu_card
+              course_name={"Bachelor in computer science"}
+              description={"Pursuing Btech CSE from Usha Martin university"}
+            />
+            <Edu_card
+              course_name={"Intermidiate"}
+              description={"Completed intermidiate from St.Xavier's College"}
+            />
+            <Edu_card
+              course_name={"Matriculation"}
+              description={"Completed Matriculation from BridgeFord School"}
+            />
           </div>
-          <div>
+          <div className="flex flex-col justify-center items-center bg-red-500">
             <h1>Experience</h1>
+            <Edu_card
+              course_name={"Bachelor in computer science"}
+              description={"Pursuing Btech CSE from Usha Martin university"}
+            />
+            <Edu_card
+              course_name={"Intermidiate"}
+              description={"Completed intermidiate from St.Xavier's College"}
+            />
+            <Edu_card
+              course_name={"Matriculation"}
+              description={"Completed Matriculation from BridgeFord School"}
+            />
           </div>
         </div>
       </section>
