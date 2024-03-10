@@ -43,7 +43,7 @@ const Header = () => {
       </div>
 
       <div className="flex ">
-        <Button name="Hire Me" />
+        <Button name="Hire Me"/>
       </div>
     </div>
   );
