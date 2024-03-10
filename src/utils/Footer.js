@@ -12,16 +12,16 @@ const Footer = () => {
           Home
         </Link>
         <Link
-          to="/about"
-          className="p-2 font-extralight  hover:underline underline-offset-2"
-        >
-          About
-        </Link>
-        <Link
           to="/work"
           className="p-2 font-extralight  hover:underline underline-offset-2"
         >
           Experience
+        </Link>
+        <Link
+          to="/about"
+          className="p-2 font-extralight  hover:underline underline-offset-2"
+        >
+          About
         </Link>
         <Link
           to="/contact"
@@ -45,9 +45,15 @@ const Footer = () => {
         </Link>
       </div>
       <div className="flex flex-col p-10 ml-10">
-        <Link className="p-2 font-extralight hover:underline underline-offset-2 ">Get My Resume</Link>
-        <Link className="p-2 font-extralight hover:underline underline-offset-2 ">Hire me</Link>
-        <Link className="p-2 font-extralight hover:underline underline-offset-2 ">Projects</Link>
+        <Link className="p-2 font-extralight hover:underline underline-offset-2 ">
+          Get My Resume
+        </Link>
+        <Link className="p-2 font-extralight hover:underline underline-offset-2 ">
+          Hire me
+        </Link>
+        <Link className="p-2 font-extralight hover:underline underline-offset-2 ">
+          Projects
+        </Link>
       </div>
     </div>
   );

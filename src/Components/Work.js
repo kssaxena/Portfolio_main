@@ -1,12 +1,12 @@
-import Button from "../utils/Button";
 import Hire_me from "../utils/Hire_me";
+import Work_coding_area from "../utils/Work_coding_area";
 
 const Work = () => {
   return (
     <div>
-      <h1>work</h1>
+      <Work_coding_area/>
       <Hire_me />
-      <Button name="Kshitij" size="5xl" />
+
     </div>
   );
 };

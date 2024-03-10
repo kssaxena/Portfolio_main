@@ -14,4 +14,9 @@ export const images = [
     id: 3,
     url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1710041638/Portfolio/20211230032309_IMG_1127_rbowfc.jpg",
   },
+  {
+    // for_Work_page
+    id: 4,
+    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1710086299/Portfolio/wallpaperflare.com_wallpaper_6_rhiq3x.jpg",
+  },
 ];

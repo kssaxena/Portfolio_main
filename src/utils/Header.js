@@ -2,8 +2,6 @@ import { Link, useNavigate } from "react-router-dom";
 import Button from "./Button";
 
 const Header = () => {
-
-  
   const navigate = useNavigate();
   return (
     <div className="bg-gray-200 flex justify-evenly items-center p-2 w-[100%] h-16 ">
@@ -19,16 +17,16 @@ const Header = () => {
             Home
           </Link>
           <Link
-            to="/about"
-            className=" font-light text-lg hover:scale-110 hover:font-medium transition duration-150 ease-in-out hover:text-red-500 hover:underline underline-offset-2"
-          >
-            About
-          </Link>
-          <Link
             to="/work"
             className=" font-light text-lg hover:scale-110 hover:font-medium transition duration-150 ease-in-out hover:text-red-500 hover:underline underline-offset-2"
           >
             Experience
+          </Link>
+          <Link
+            to="/about"
+            className=" font-light text-lg hover:scale-110 hover:font-medium transition duration-150 ease-in-out hover:text-red-500 hover:underline underline-offset-2"
+          >
+            About
           </Link>
           <Link
             to="/contact"
@@ -46,7 +44,7 @@ const Header = () => {
       </div>
 
       <div className="flex ">
-        <Button name="Hire Me"/>
+        <Button name="Hire Me" />
       </div>
     </div>
   );
