@@ -1,9 +1,12 @@
 import { Link, useNavigate } from "react-router-dom";
-
+import Button from "./Button";
 const Header = () => {
   const navigate = useNavigate();
   return (
     <div className="bg-gray-200 flex justify-evenly items-center p-2 w-[100%] h-16 ">
+      <div>
+        <h1 className="text-red-500  font-semibold text-4xl">Mr_Saxena</h1>
+      </div>
       <div className="text-black w-1/2 ">
         <nav className="flex justify-around">
           <Link
@@ -38,8 +41,9 @@ const Header = () => {
           </Link>
         </nav>
       </div>
-      <div>
-        <h1 className="text-red-500 font-semibold text-4xl">Mr_Saxena</h1>
+
+      <div className="flex ">
+        <Button name="Hire Me" />
       </div>
     </div>
   );
