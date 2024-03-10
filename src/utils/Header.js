@@ -33,12 +33,12 @@ const Header = () => {
           >
             Contact
           </Link>
-          <Link
+          {/* <Link
             to={"/"}
             className=" font-light text-lg hover:scale-110 hover:font-medium transition duration-150 ease-in-out hover:text-red-500"
           >
             Demo_development
-          </Link>
+          </Link> */}
         </nav>
       </div>
 

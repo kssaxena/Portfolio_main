@@ -3,10 +3,14 @@ import { images } from "../utils/Images";
 
 const Contact = () => {
   return (
-    <div>
+    <div className="flex w-full justify-evenly bg-gray-200">
+      <div className="p-14">
+        <img src={images[2].url} className="rounded-full w-80" />
+      </div>
+      <div className="w-1/2">
       <Form_contact/>
-      <h1>contact</h1>
-      {/* <img src={images[2].url} className=" bg-red-400 rounded-full" /> */}
+      </div>
+      {/* <h1>contact</h1> */}
     </div>
   );
 };

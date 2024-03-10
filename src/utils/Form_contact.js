@@ -1,44 +1,60 @@
+import Button from "./Button";
+
 const Form_contact = () => {
   return (
-    <div>
-      <div className=" bg-gray-200 w-1/2 p-10">
-        <label className="flex w-full text-black text-sm font-bold p-5" htmlFor="name">
+    <div className="mb-10">
+      <div className=" bg-gray-200 w-full p-10 rounded-3xl">
+        <label
+          className="flex w-full text-black text-sm font-bold p-2"
+          htmlFor="name"
+        >
           Name
         </label>
         <input
-          className="w-full bg-gray-300 border-b-2 border-red-500 rounded-lg text-black leading-tight focus:outline-none focus:shadow-outline p-5"
+          className="w-3/4 bg-gray-300 border-b-2 rounded-full text-black leading-tight focus:outline-none focus:shadow-outline p-5"
           id="name"
           type="text"
-          placeholder="Your Name"
+          placeholder="Full Name"
         />
-        <label className="flex w-full text-black text-sm font-bold p-5" htmlFor="mail">
+        <label
+          className="flex w-full text-black text-sm font-bold p-2"
+          htmlFor="email"
+        >
           Mail_Id
         </label>
         <input
-          className="w-full bg-gray-300 border-b-2 border-red-500 rounded-lg text-black leading-tight focus:outline-none focus:shadow-outline p-5"
-          id="mail"
+          className="w-3/4 bg-gray-300 border-b-2 rounded-full text-black leading-tight focus:outline-none focus:shadow-outline p-5"
+          id="email"
           type="email"
-          placeholder="Enter your email address"
+          placeholder="Enter your E-mail"
         />
-        <label className="flex w-full text-black text-sm font-bold p-5" htmlFor="name">
-          Name
+        <label
+          className="flex w-full text-black text-sm font-bold p-2"
+          htmlFor="number"
+        >
+          Contact Number
         </label>
         <input
-          className="w-full bg-gray-300 border-b-2 border-red-500 rounded-lg text-black leading-tight focus:outline-none focus:shadow-outline p-5"
-          id="name"
-          type="text"
-          placeholder="Your Name"
+          className="w-3/4 bg-gray-300 border-b-2 rounded-full text-black leading-tight focus:outline-none focus:shadow-outline p-5"
+          id="number"
+          type="#"
+          placeholder="Your Contact Number"
         />
-        <label className="flex w-full text-black text-sm font-bold p-5" htmlFor="name">
-          Name
+        <label
+          className="flex w-full text-black text-sm font-bold p-2"
+          htmlFor="description"
+        >
+          Brief Description
         </label>
         <input
-          className="w-full bg-gray-300 border-b-2 border-red-500 rounded-lg text-black leading-tight focus:outline-none focus:shadow-outline p-5"
-          id="name"
+          className="w-3/4 h-48 bg-gray-300 border-b-2 rounded-2xl text-black leading-tight focus:outline-none focus:shadow-outline p-5 "
+          id="description"
           type="text"
-          placeholder="Your Name"
+          placeholder="Briefly describe your need for this contact."
         />
-        
+      </div>
+      <div className="flex  w-full pl-60">
+        <Button name="Say Hello" toCall="#" />
       </div>
     </div>
   );

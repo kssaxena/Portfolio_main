@@ -12,6 +12,6 @@ export const images = [
   {
     // for_about_page
     id: 3,
-    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1710075643/Snapchat-752782069_gfzixi.jpg",
+    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1710041638/Portfolio/20211230032309_IMG_1127_rbowfc.jpg",
   },
 ];
