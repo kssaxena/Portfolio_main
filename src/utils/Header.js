@@ -1,6 +1,9 @@
 import { Link, useNavigate } from "react-router-dom";
 import Button from "./Button";
+
 const Header = () => {
+
+  
   const navigate = useNavigate();
   return (
     <div className="bg-gray-200 flex justify-evenly items-center p-2 w-[100%] h-16 ">

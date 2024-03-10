@@ -5,7 +5,7 @@ const Form_contact = () => {
     <div className="mb-10">
       <div className=" bg-gray-200 w-full p-10 rounded-3xl">
         <label
-          className="flex w-full text-black text-sm font-bold p-2"
+          className="flex w-full text-black text-sm font-normal p-2"
           htmlFor="name"
         >
           Name
@@ -17,10 +17,10 @@ const Form_contact = () => {
           placeholder="Full Name"
         />
         <label
-          className="flex w-full text-black text-sm font-bold p-2"
+          className="flex w-full text-black text-sm font-normal p-2"
           htmlFor="email"
         >
-          Mail_Id
+          Mail Id
         </label>
         <input
           className="w-3/4 bg-gray-300 border-b-2 rounded-full text-black leading-tight focus:outline-none focus:shadow-outline p-5"
@@ -29,7 +29,7 @@ const Form_contact = () => {
           placeholder="Enter your E-mail"
         />
         <label
-          className="flex w-full text-black text-sm font-bold p-2"
+          className="flex w-full text-black text-sm font-normal p-2"
           htmlFor="number"
         >
           Contact Number
@@ -41,7 +41,7 @@ const Form_contact = () => {
           placeholder="Your Contact Number"
         />
         <label
-          className="flex w-full text-black text-sm font-bold p-2"
+          className="flex w-full text-black text-sm font-normal p-2"
           htmlFor="description"
         >
           Brief Description
