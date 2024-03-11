@@ -1,14 +1,20 @@
 import { images } from "./Images";
 import Button from "./Button";
 
-
-const Work_coding_area = () => {
+const Work_photography_area = () => {
   return (
-    <section className="coding_para_photo bg-gray-200  pt-5 pb-8">
+    <section className="coding_para_photo bg-gray-200 border-b-2 border-gray-400 pt-5 pb-8">
       <div className="flex p-10">
+        <div className=" flex justify-center items-center w-1/2">
+          <img
+            src={images[4].url}
+            alt="coding_para_photo"
+            className="w-3/4 opacity-85 rounded-2xl"
+          />
+        </div>
         <div className="w-1/2 ">
-          <h1 className="pl-10 text-3xl font-semibold text-red-500">
-            Developer__
+          <h1 className="pr-10 text-3xl font-semibold text-right text-red-500">
+            __Photographer
           </h1>
           <p className="text-center text-lg p-10">
             As a passionate computer science engineering student, I'm constantly
@@ -21,19 +27,12 @@ const Work_coding_area = () => {
             feel free to reach out and connect!
           </p>
         </div>
-        <div className=" flex justify-center items-center w-1/2">
-          <img
-            src={images[3].url}
-            alt="coding_para_photo"
-            className="w-3/4 opacity-85 rounded-2xl"
-          />
-        </div>
       </div>
-      <div className=" flex items-center justify-center p-2">
-        <Button name="Works as a Developer" />
+      <div className=" flex items-center justify-center p-10 ml-48 mr-48">
+        <Button name="Static Gallery" />
       </div>
     </section>
   );
 };
 
-export default Work_coding_area;
+export default Work_photography_area;

@@ -15,8 +15,13 @@ export const images = [
     url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1710041638/Portfolio/20211230032309_IMG_1127_rbowfc.jpg",
   },
   {
-    // for_Work_page
+    // for_Work_page_code
     id: 4,
     url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1710086299/Portfolio/wallpaperflare.com_wallpaper_6_rhiq3x.jpg",
+  },
+  {
+    // for_Work_page_photography
+    id: 5,
+    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1710160225/Portfolio/work_portfolio_5_cdjihd.jpg",
   },
 ];

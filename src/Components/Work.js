@@ -1,12 +1,13 @@
 import Hire_me from "../utils/Hire_me";
+import Work_photography_area from "../utils/Work_Photography_area";
 import Work_coding_area from "../utils/Work_coding_area";
 
 const Work = () => {
   return (
     <div>
       <Work_coding_area/>
-      <Hire_me />
-
+      <Work_photography_area/>
+      <Hire_me/>
     </div>
   );
 };
