@@ -24,4 +24,29 @@ export const images = [
     id: 5,
     url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1710160225/Portfolio/work_portfolio_5_cdjihd.jpg",
   },
+  {
+    // for_Work_page_photography
+    id: 6,
+    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1710246513/Portfolio/work_portfolio_24_ewxfj2.jpg",
+  },
+  {
+    // for_Work_page_photography
+    id: 7,
+    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1710246515/Portfolio/work_portfolio_17_igdx4s.jpg",
+  },
+  {
+    // for_Work_page_photography
+    id: 8,
+    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1710246515/Portfolio/work_portfolio_4_d9bhbc.jpg",
+  },
+  {
+    // for_Work_page_photography
+    id: 9,
+    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1710246515/Portfolio/work_portfolio_12_bphyog.jpg",
+  },
+  {
+    // for_Work_page_photography
+    id: 10,
+    url: "https://res.cloudinary.com/dr5lcwbsx/image/upload/v1710246516/Portfolio/work_portfolio_18_sicbny.jpg",
+  },
 ];

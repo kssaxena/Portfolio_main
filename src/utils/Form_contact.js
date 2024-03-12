@@ -3,9 +3,9 @@ import Button from "./Button";
 const Form_contact = () => {
   return (
     <div className="mb-10">
-      <div className=" bg-gray-200 w-full p-10 rounded-3xl">
+      <div className=" bg-gray-200  w-full  p-10 rounded-3xl flex flex-col justify-center items-center">
         <label
-          className="flex w-full text-black text-sm font-normal p-2"
+          className="pl-28 flex w-full text-black text-sm font-normal p-2"
           htmlFor="name"
         >
           Name
@@ -17,7 +17,7 @@ const Form_contact = () => {
           placeholder="Full Name"
         />
         <label
-          className="flex w-full text-black text-sm font-normal p-2"
+          className="pl-28 flex w-full text-black text-sm font-normal p-2"
           htmlFor="email"
         >
           Mail Id
@@ -29,7 +29,7 @@ const Form_contact = () => {
           placeholder="Enter your E-mail"
         />
         <label
-          className="flex w-full text-black text-sm font-normal p-2"
+          className="pl-28 flex w-full text-black text-sm font-normal p-2"
           htmlFor="number"
         >
           Contact Number
@@ -41,7 +41,7 @@ const Form_contact = () => {
           placeholder="Your Contact Number"
         />
         <label
-          className="flex w-full text-black text-sm font-normal p-2"
+          className="pl-28 flex w-full text-black text-sm font-normal p-2"
           htmlFor="description"
         >
           Brief Description

@@ -1,16 +1,13 @@
-import { images } from "./Images";
+
 import Button from "./Button";
+import Images_gallery from "../Components/Images_gallery";
 
 const Work_photography_area = () => {
   return (
     <section className="coding_para_photo bg-gray-200 border-b-2 border-gray-400 pt-5 pb-8">
       <div className="flex p-10">
-        <div className=" flex justify-center items-center w-1/2">
-          <img
-            src={images[4].url}
-            alt="coding_para_photo"
-            className="w-3/4 opacity-85 rounded-2xl"
-          />
+        <div className=" flex justify-center items-center w-1/2 ">
+          <Images_gallery/>
         </div>
         <div className="w-1/2 ">
           <h1 className="pr-10 text-3xl font-semibold text-right text-red-500">
@@ -29,7 +26,7 @@ const Work_photography_area = () => {
         </div>
       </div>
       <div className=" flex items-center justify-center p-10 ml-48 mr-48">
-        <Button name="Static Gallery" />
+        <Button name="Have a look on my Static Gallery" />
       </div>
     </section>
   );
