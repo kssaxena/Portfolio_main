@@ -25,7 +25,7 @@ const Work_coding_area = () => {
           <img
             src={images[3].url}
             alt="coding_para_photo"
-            className="w-3/4 opacity-85 rounded-2xl border-4 border-red-500 p-1"
+            className="w-3/4 opacity-85 rounded-2xl border-2 border-red-500 p-1"
           />
         </div>
       </div>

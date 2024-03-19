@@ -3,7 +3,7 @@ import { images } from "../utils/Images";
 const Images_gallery = () => {
   return (
     <div className="flex justify-center items-center w-fit">
-      <div className="border-4 border-red-500 w-full rounded-3xl">
+      <div className="border-2 border-red-500 w-full rounded-3xl">
         <div className=" w-full flex justify-evenly">
           <div className=" w-1/2 flex flex-col justify-evenly ">
             <img src={images[9].url} className="w-fit p-1 rounded-2xl" />

@@ -11,7 +11,7 @@ const Work_photography_area = () => {
         </div>
         <div className="w-1/2 ">
           <h1 className="pr-10 text-3xl font-semibold text-right text-red-500">
-            __Photographer
+            __Static Photographer
           </h1>
           <p className="text-center text-lg p-10">
             As a passionate computer science engineering student, I'm constantly

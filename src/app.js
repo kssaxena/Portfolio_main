@@ -8,15 +8,14 @@ import About from "./Components/About";
 import Header from "./utils/Header";
 import Footer from "./utils/Footer";
 
-
-
-
 const AppLayout = () => {
-  return <div className="container w-[100%] overflow-hidden ">
-    <Header/>
-    <Outlet/>
-    <Footer/>
-  </div>;
+  return (
+    <div className="container w-[100%] overflow-hidden ">
+      <Header />
+      <Outlet />
+      <Footer />
+    </div>
+  );
 };
 
 const appRouter = createBrowserRouter([
@@ -39,6 +38,10 @@ const appRouter = createBrowserRouter([
       },
       {
         path: "/Contact",
+        element: <Contact />,
+      },
+      {
+        path: "/hireMe",
         element: <Contact />,
       },
     ],
