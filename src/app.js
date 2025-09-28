@@ -5,8 +5,8 @@ import Home from "./Components/Home";
 import Work from "./Components/Work";
 import Contact from "./Components/Contact";
 import About from "./Components/About";
-import Header from "./utils/Header";
 import Footer from "./utils/Footer";
+import Header from "./utils/Header";
 
 const AppLayout = () => {
   return (
